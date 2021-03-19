@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std; 
 
+	//global declaration
 	int n=3;
 	// Function declaration
 	void starline();
@@ -8,10 +9,9 @@ using namespace std;
 	// The main method
 	int main()
 	{	
-		 // the body of the function
-		
-		starline();  // call the function
-		cout<<"\n it is the function body"<<end;
+		// the body of the function
+		starline();
+		cout<<"\n it is the function body"<<endl;
 		starline();
 
 		return 0;
